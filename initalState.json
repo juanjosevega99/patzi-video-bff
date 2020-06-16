@@ -5,13 +5,13 @@
       {
         "id": 2,
         "slug": "tvshow-2",
-        "title": "In the Dark",
+        "title": "Freaky Friday",
         "type": "Scripted",
         "language": "English",
         "year": 2009,
         "contentRating": "16+",
         "duration": 164,
-        "cover": "http://dummyimage.com/800x600.png/99118E/ffffff",
+        "cover": "https://www.gstatic.com/tv/thumb/v22vodart/32185/p32185_v_v8_aa.jpg",
         "description": "Vestibulum ac est lacinia nisi venenatis tristique",
         "source": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
       },
