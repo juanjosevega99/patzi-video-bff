@@ -7,15 +7,15 @@ import { createBrowserHistory } from 'history';
 import initialState from '../initialState';
 import reducer from '../reducers';
 
-const store = createStore(reducer, initialState, compose(applyMiddleware(thunk)))
-const history = createBrowserHistory()
+const store = createStore(reducer, initialState, compose(applyMiddleware(thunk)));
+const history = createBrowserHistory();
 
-const ProviderMock = props => {
+const ProviderMock = props => (
   <Provider store={store}>
     <Router history={history}>
       {props.children}
     </Router>
   </Provider>
-}
+);
 
-module.exports = ProviderMock
+module.exports = ProviderMock;
